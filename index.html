@@ -8,14 +8,80 @@
     <link rel="stylesheet" href="./assets/css/styles.css">   
 </head>
 <body>
+   
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="#">
+            <img class="navbar__logo" src="assets/images/logo.png" alt="Barbershop">
+          </a>
+          <button class="navbar-toggler navbar__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav navbar__list mb-2 mb-lg-0">
+             <li class="nav-item">
+                <a class="nav-link navbar__link" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link navbar__link--active" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#" tabindex="-1" aria-disabled="true">Horas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+</nav>
+
+<!-- Header -->
+<header class="header">
+    <h1>5 Formas de cuidar tu corte de cabello</h1>
+    <i class="bi bi-chevron-double-down header__icon"></i>
+</header>
+
+<!-- Main -->
+<main class="post">
+    <div class="container">
+
+    <!-- Date -->
+    <p class="post__date">12 de abril de 2018</p>
+
+     <!-- Content -->
+     <article class="post__content">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A beatae reiciendis incidunt. Maiores debitis nihil vel voluptatem necessitatibus, qui harum soluta aut autem blanditiis distinctio reprehenderit, quasi ducimus! Accusantium, tenetur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, alias quod quo, deleniti explicabo esse tempore, voluptatum saepe voluptatem voluptate veniam doloribus? Officiis praesentium facilis corrupti provident esse. Perferendis, qui.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odit eos sapiente temporibus, eligendi ullam vitae explicabo itaque quaerat consectetur, sunt ad unde optio, cupiditate mollitia est inventore voluptate nam.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, fuga officiis natus laboriosam, est harum aut nesciunt doloremque nemo doloribus incidunt omnis quaerat, ipsa possimus laudantium aspernatur. Labore, soluta at?</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci in provident <a href="#">nisi iste non eius explicabo aspernatur</a> id voluptates corrupti ullam, aut commodi repellendus, soluta incidunt, saepe dolores eveniet.</p>
+     </article>
+
+     <!-- Buttons -->
+     <div class="post__buttons-container">
+         <button type="button" class="btn post__button post__button--hover post__button--focus post__button--small">Compartir</button>
+         <button type="button" class="btn post__button post__button--hover post__button--focus post__button--medium">Comentar en Twitter</button>
+     </div>
+
+    </div>
+</main>
 
 
-    <!-- Author -->
-    <section class="author">
+<!-- Author -->
+<section class="author">
         <div class="container">
         <div class="row">
             <!-- Thumbnail -->
-            <div class="col-sm-12 col-lg-2 author__thumbnail">
+            <div class="col-sm-12 col-lg-3 author__thumbnail">
                 <img src="./assets/images/naomi-thai.png" alt="Author">
             </div>
             <!-- Name -->
@@ -31,18 +97,17 @@
             </div>
             <!-- Description -->
             <div class="col-sm-12 col-lg-7 author__description">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo deserunt, ex harum cum, est nobis culpa dolores non, aspernatur expedita consequuntur provident ad eos temporibus libero eum ipsum porro adipisci.</p>
-
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo deserunt, ex harum cum, est nobis culpa dolores non, aspernatur expedita consequuntur provident ad eos temporibus libero eum ipsum porro adipisci.</p>
             </div>
-
-
-
         </div>
-
-
         </div>
+</section>
 
+<!-- Footer -->
+<footer class="footer">
 
-    </section>
+<img src="assets/images/logo.png" alt="Barbershop">
+</footer>
+
 </body>
 </html>
