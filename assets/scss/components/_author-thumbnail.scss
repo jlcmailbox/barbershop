@@ -1,6 +1,12 @@
-.author__thumbnail img {
-    border-radius: 50%;
-    
-
-
-}
+.author__thumbnail {
+       text-align: center;
+       img {
+        border-radius: 50%;
+        width: 175px;
+       }
+       @include large-breakpoint {
+           img{
+               width: 175px;
+        }
+       }
+    }
